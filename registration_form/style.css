@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=DynaPuff&family=Rubik:ital,wght@0,300;1,300&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'DynaPuff', cursive;
+
+}
+body{
+  background-color:rgb(219, 128, 207)
+}
+header{
+    width: 100%;
+    font-size: 40px;
+    font-weight: 300;
+}
+.main_box{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10vh;
+}
+
+.box1,.box2{
+    display: inline-block;
+    width: 45vw;
+    height: 100vh;
+    
+}
+
+.box1{
+  font-size: 30px;
+
+}
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  form{
+      display: inline-flex;
+      flex-direction: column;
+      margin: 5vh;
+      
+  }
+
+ label{
+     margin: 10px;
+ }
+
+
+ .person1{
+   display: inline-flex;
+   height: 40vh;
+   width: 40vw;
+   flex-direction: column;
+   border: 4px groove yellow;
+   border-radius: 25px;
+   margin-top: 20px;
+   padding: 30px;
+   background-color: bisque;
+ }
+ .person1:hover{
+   transform: scale(1.1);
+ }
+
+ #button1{
+   height: 7vh;
+   width: 15vw;
+   font-size: 30px;
+   margin-left: 4vw;
+   margin-top: 5vh;
+   border-radius: 10px;
+ }
+
+ #button1:hover{
+    background-color: coral;
+    color: white;
+    transform: scale(1.1);
+ }
