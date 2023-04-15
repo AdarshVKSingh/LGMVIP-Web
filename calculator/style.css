@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Dancing+Script&family=DynaPuff&family=Lilita+One&family=Rubik:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lilita One', cursive;
+    color: aliceblue;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, rgb(48, 74, 156) , rgb(82, 148, 168),rgb(26, 80, 151));
+}
+.cal{
+    display: inline-flex;
+    height: 80vh;
+    width: 40vw;
+    flex-direction: column;
+    margin-left: 32vw;
+    margin-top: 10vh;
+    border: 2px groove white;
+
+}
+
+.screen{
+    display: inline-flex;
+
+}
+.display{
+    display: inline-block;
+    height: 15vh;
+    width: 30vw;
+    border: 2px groove white;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5vh;
+
+
+}
+.reset{
+    display: inline-block;
+    height: 15vh;
+    width: 10vw;
+    border:2px solid white;
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 5vh;
+    text-align: center;
+}
+
+.reset:hover{
+    transform: scale(1.05);
+}
+input{
+    height: 15vh;
+    width: 10vw;
+    font-size: 30px;
+}
+
+.keys{
+    display: inline-flex;
+    height: 60vh;
+    width: 40vw;
+    font-size: 30px;
+    font-weight: 500;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.block{
+    display: inline-flex;
+    height: 15vh;
+    width: 30vw;
+    justify-content: space-around;
+}
+.key{
+    display: inline-block;
+    height: 13vh;
+    width:10vw;
+    border:2px solid white;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.key:hover{
+    transform: scale(1.1);
+}
